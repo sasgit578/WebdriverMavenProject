@@ -29,7 +29,8 @@ public class LoginTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("saspan1234@gmail.com");
-	    driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"ow300\"]/span/span")).click();
+	    //driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();
 		//driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("sadasd");
 		//driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/div/button/div[2]")).click();
 		
